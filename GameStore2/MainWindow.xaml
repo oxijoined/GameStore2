@@ -1,0 +1,69 @@
+﻿<ui:UiWindow x:Class="GameStore2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameStore2"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        WindowCornerPreference="Round"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        mc:Ignorable="d"
+        Height="720" Width="1280" WindowStyle="SingleBorderWindow" Icon="/favicon.ico">
+    <Grid x:Name="MainGrid" Background="#202020">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="93*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="97*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" Background="Transparent"/>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <ui:NavigationStore>
+                <ui:NavigationStore.Items>
+                    <ui:NavigationItem
+                        x:Name="Dashboard"
+                        Content="Dashboard"
+                        Icon="Home24"
+                        IsActive="True"
+                        Click="Dashboard_Click"
+                        PageTag="dashboard" Cursor="Hand"/>
+                    <ui:NavigationSeparator/>
+                    <ui:NavigationItem
+                        x:Name="Games"
+                        Content="Games"
+                        Icon="Games24"
+                        IsActive="False"
+                        Click="Games_Click"
+                        PageTag="dashboard"/>
+                    <ui:NavigationItem
+                        x:Name="News"
+                        Content="News"
+                        Icon="News24"
+                        IsActive="False"
+                        Click="News_Click"
+                        PageTag="dashboard" Cursor="Hand"/>
+
+                </ui:NavigationStore.Items>
+                <ui:NavigationStore.Footer>
+                    <ui:NavigationItem
+                        Content="Profile"
+                        x:Name="Profile"
+                        Icon="Person24"
+                        IsActive="False"
+                        Click="Profile_Click"
+                        PageTag="library" Cursor="Hand"/>
+                    <ui:NavigationItem
+                        Content="Settings"
+                        x:Name="Settings"
+                        Icon="Settings24"
+                        IsActive="False"
+                        Click="Settings_Click"
+                        PageTag="library" Cursor="Hand"/>
+                </ui:NavigationStore.Footer>
+            </ui:NavigationStore>
+        </Grid>
+    </Grid>
+</ui:UiWindow>

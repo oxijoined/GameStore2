@@ -1,0 +1,114 @@
+﻿<Page x:Class="GameStore2.GamesFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GameStore2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GamesFrame">
+
+    <Border Background="#2d2d2d" CornerRadius="10 0 0 0">
+    <Grid Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle Grid.Row="0" Grid.Column="0" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/8085/EtmYxbLR.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="1" Grid.Column="0" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/1776/aXFVkrnE.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="2" Grid.Column="0" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/7702/rQsEWLUr.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="3" Grid.Column="0" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/8525/mDW7h2zB.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <Rectangle Grid.Row="0" Grid.Column="1" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/4516/qQwJgFms.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="1" Grid.Column="1" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13773/ChmRTXJV.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="2" Grid.Column="1" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13509/A7166nJ8.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="3" Grid.Column="1" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13964/o1nT7t2U.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+
+            <Rectangle Grid.Row="0" Grid.Column="2" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/14063/DQrO5pMa.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="1" Grid.Column="2" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13373/5de4WOBl.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="2" Grid.Column="2" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13372/UTe8cGIC.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="3" Grid.Column="2" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/13962/8CY5iPkn.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+
+            <Rectangle Grid.Row="0" Grid.Column="3" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/14102/FeOlw7IT.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="1" Grid.Column="3" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/14114/lwus6PvO.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="2" Grid.Column="3" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/1832/9YI3DaHu.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Grid.Row="3" Grid.Column="3" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Margin="5 5 5 5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://img.opencritic.com/game/2841/OYY3cHes.jpg" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+        </Grid>
+    </Border>
+</Page>
